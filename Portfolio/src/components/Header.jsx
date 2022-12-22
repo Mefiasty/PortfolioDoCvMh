@@ -10,10 +10,11 @@ function Header() {
       clearInterval(intervalId);
     };
   });
+
   return (
     <div className="">
       <div>
-        <h1 className="flex fixed right-20 border-2 rounded-full p-2 bg-slate-600 bg-opacity-60">
+        <h1 className="flex fixed right-2 border-2 rounded-full p-2 bg-slate-600 bg-opacity-60">
           {time.getHours()}:{time.getMinutes()}:{time.getSeconds()}
         </h1>
       </div>
