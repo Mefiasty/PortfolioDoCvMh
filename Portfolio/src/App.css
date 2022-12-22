@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Links {
+  max-width: 1580px;
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  #root {
+    max-width: 768px;
+    text-align: center;
+    padding: 4rem;
+    display: block;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    border: 100px 100px;
+    width: 100%;
+  }
+  .p {
+    width: 100%;
+  }
+  .col {
+    width: 100%;
+  }
+  .Links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+}
