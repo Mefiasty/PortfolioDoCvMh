@@ -34,6 +34,7 @@ function skills() {
           <h1 className="font-bold  text-red-600">JavaScript</h1> <p>80%</p>
         </div>
       </div>
+      <br />
     </div>
   );
 }
