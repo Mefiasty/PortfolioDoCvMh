@@ -5,7 +5,7 @@ function Main() {
       <div className="main__image col-span-1 ">
         <center>
           <img
-            src="../src/assets/img/zdjecie.png"
+            src="zdjecie.png"
             alt="img"
             className="rounded-full xl:pt-12 xl:pb-6 xl:ml-auto md:pt-12 sm:pt-2 sm:p-10 sm:mr-auto"
           ></img>

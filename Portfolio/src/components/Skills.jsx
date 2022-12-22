@@ -14,7 +14,7 @@ function skills() {
       <div className="col-span-1">
         <center>
           <img
-            src="./src/assets/img/skills.svg"
+            src="skills.svg"
             alt="skills.svg"
             className="w-auto h-72 pt-28 animate-bounce  "
           ></img>

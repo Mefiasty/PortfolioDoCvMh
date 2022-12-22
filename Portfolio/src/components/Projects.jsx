@@ -6,7 +6,7 @@ function Projects() {
         <h2>TailwindCss Components For React</h2>
         <center>
           <img
-            src="../src/assets/img//tailwind.png"
+            src="tailwind.png"
             className="w-56 h-1/2 p-2 hover:scale-110 transform transition duration-500 ease-in-out"
           ></img>
         </center>
