@@ -30,8 +30,8 @@ function Main() {
       <div className="main__aboutme bg-transparent">
         <p className="text-center">
           I am a beginner web developer living in Tomaszów Lubelski, Poland.
-          Since 2022, I have been studying computer science extramural. I'm
-          interested in front-end development in react.
+          Since 2022, I have been studying IT with programing specialisation.
+          I'm interested in front-end development in react.
         </p>
       </div>
     </div>
