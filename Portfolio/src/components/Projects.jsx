@@ -12,7 +12,7 @@ function Projects() {
             ></img>
           </center>
           <p>
-            Page with components to copy. The project is created using a
+            Page with components to copy. The project is in progress using a
             collaborative github session
           </p>
         </div>
