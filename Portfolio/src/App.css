@@ -24,16 +24,28 @@
     border: 100px 100px;
     width: 100%;
   }
+
   .p {
     width: 100%;
   }
+
   .col {
     width: 100%;
   }
+
   .Links {
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
   }
+}
+
+div {
+  width: 1280px;
+}
+
+div.container {
+  width: 1280px;
+
 }

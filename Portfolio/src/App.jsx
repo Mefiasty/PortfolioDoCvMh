@@ -1,21 +1,27 @@
-import "./App.css";
-import Header from "./components/Header.jsx";
-import Main from "./components/Main.jsx";
-import Footer from "./components/Footer.jsx";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
-function App() {
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/layout";
+import Omnie from "./pages/Omnie";
+import Projekty from "./pages/Projekty";
+import CV from "./pages/CV";
+import NoPage from "./pages/NoPage";
+
+export default function App() {
   return (
-    <div className="App bg-transparent">
-      <Header />
-      <Main />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Omnie />} />
+          <Route path="projekty" element={<Projekty />} />
+          <Route path="CV" element={<CV />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);

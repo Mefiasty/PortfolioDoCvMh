@@ -1,13 +1,22 @@
+body {
+  background-color: rgb(221, 221, 221);
+}
+
 :root {
   font-family: "Montserrat", "sans-serif";
   font-size: 16px;
-  line-height: 24px;
   font-weight: 400;
-
+  line-height: 2;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background: linear-gradient(214deg, #1e1e1e 50%, #000000 60%);
+  color: black;
+  background: rgb(212, 210, 210);
 
+  width: 1000px;
+
+
+  margin: auto;
+  justify-content: center;
+  text-align: center;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -20,14 +29,16 @@ a {
   color: #ed5845;
   text-decoration: inherit;
 }
+
 a:hover {
-  color: #f08119;
+  color: white;
   font-weight: 550;
 }
 
 body {
   margin: 0;
   display: flex;
+  justify-content: center;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -37,12 +48,21 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
     url ("./fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
   font-weight: bold;
 }
+
+div.menu {
+
+  width: 1000px;
+
+}
+
+
 
 @tailwind base;
 @tailwind components;
