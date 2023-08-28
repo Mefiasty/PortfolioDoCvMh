@@ -14,9 +14,9 @@ const Layout = () => {
                 <div className=" lg:h-10  lg:mb-12 mb-6 bg-zinc-400  ">
                     <nav className=" lg:grid lg:grid-cols-3 grid grid-rows-3  ">
 
-                        <Link to="/projekty" className="hover:bg-zinc-900 hover:h-10">Projekty</Link>
-                        <Link to="/CV" className="hover:bg-zinc-900 hover:h-10">CV</Link>
-                        <Link to="/" className="hover:bg-zinc-900 hover:h-10">O mnie</Link>
+                        <Link to="/projekty" className="hover:bg-zinc-900 lg:hover:h-10">Projekty</Link>
+                        <Link to="/CV" className="hover:bg-zinc-900 lg:hover:h-10">CV</Link>
+                        <Link to="/" className="hover:bg-zinc-900 lg:hover:h-10">O mnie</Link>
                     </nav>
                 </div>
                 <div className="contents">
