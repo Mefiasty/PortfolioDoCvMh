@@ -2,26 +2,27 @@ body {
   background-color: rgb(221, 221, 221);
 }
 
-:root {
-  font-family: "Montserrat", "sans-serif";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 2;
-  color-scheme: light dark;
-  color: black;
-  background: rgb(212, 210, 210);
+
+div.container {
   width: 1000px;
   margin: auto;
-  justify-content: center;
   text-align: center;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
   display: block;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    width: 390px;
+  }
+
+  div.container {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    height: auto;
+  }
+}
 
 
 
