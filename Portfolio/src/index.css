@@ -10,10 +10,7 @@ body {
   color-scheme: light dark;
   color: black;
   background: rgb(212, 210, 210);
-
   width: 1000px;
-
-
   margin: auto;
   justify-content: center;
   text-align: center;
@@ -22,7 +19,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  display: block;
 }
+
+
+
 
 a {
   font-weight: 500;
@@ -37,7 +38,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  display: block;
   justify-content: center;
   place-items: center;
   min-width: 320px;
@@ -56,11 +57,7 @@ h1 {
   font-weight: bold;
 }
 
-div.menu {
 
-  width: 1000px;
-
-}
 
 
 
