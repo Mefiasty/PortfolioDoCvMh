@@ -1,7 +1,13 @@
+h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   background-color: rgb(221, 221, 221);
 }
-
 
 div.container {
   width: 1000px;
@@ -23,8 +29,6 @@ div.container {
     height: auto;
   }
 }
-
-
 
 a {
   font-weight: 500;
@@ -57,10 +61,6 @@ h1 {
     url ("./fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
   font-weight: bold;
 }
-
-
-
-
 
 @tailwind base;
 @tailwind components;

@@ -12,7 +12,7 @@ const Projekty = () => {
             className="text-2xl
                  hover:text-red-700"
           >
-            Projekt nr.1
+            <h2>Projekt nr.1</h2>
             <center>
               <img src="/projekt1.png" alt="" srcset="" className="mt-2" />
             </center>
@@ -25,7 +25,7 @@ const Projekty = () => {
             className="text-2xl
                      hover:text-red-700"
           >
-            Projekt nr.2
+            <h2>Projekt nr.2</h2>
             <center>
               <img src="/projekt2.png" alt="" srcset="" className="mt-2" />
             </center>
@@ -38,14 +38,9 @@ const Projekty = () => {
             className="text-2xl
                      hover:text-red-700"
           >
-            Projekt nr.3
+            <h2>Projekt nr.3</h2>
             <center>
-              <img
-                src="/projekt3.png"
-                alt="Coming Soon..."
-                srcset=""
-                className="mt-2"
-              />
+              <h2 className="hover:text-red-700">już niedługo...</h2>
             </center>
           </a>
         </div>
